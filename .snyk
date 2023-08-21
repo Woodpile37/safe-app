@@ -1,0 +1,116 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@commitlint/config-conventional > conventional-changelog-conventionalcommits > lodash':
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @commitlint/config-conventional >
+          conventional-changelog-conventionalcommits > lodash
+    - cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: cz-conventional-changelog > @commitlint/load > lodash
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: cz-conventional-changelog > commitizen > lodash
+    - commitizen > inquirer > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: commitizen > inquirer > lodash
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > eslint-plugin-flowtype > lodash
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > html-webpack-plugin > lodash
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > webpack-manifest-plugin > lodash
+    - cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          cz-conventional-changelog > @commitlint/load >
+          @commitlint/resolve-extends > lodash
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: cz-conventional-changelog > commitizen > inquirer > lodash
+    - react-scripts > babel-eslint > @babel/traverse > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-eslint > @babel/traverse > lodash
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > optimize-css-assets-webpack-plugin >
+          last-call-webpack-plugin > lodash
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > webpack-dev-server > http-proxy-middleware > lodash
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @commitlint/cli > @commitlint/lint > @commitlint/parse >
+          conventional-commits-parser > lodash
+    - react-scripts > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-eslint > @babel/traverse > @babel/generator >
+          lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > eslint-plugin-testing-library > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > eslint-plugin-testing-library >
+          @typescript-eslint/experimental-utils >
+          @typescript-eslint/typescript-estree > lodash
+    - react-scripts > webpack-dev-server > portfinder > async > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > webpack-dev-server > portfinder > async > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @jest/transform > @babel/core >
+          @babel/helper-module-transforms > lodash
+    - react-scripts > workbox-webpack-plugin > workbox-build > rollup-plugin-babel > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > workbox-webpack-plugin > workbox-build >
+          rollup-plugin-babel > @babel/helper-module-imports > @babel/types >
+          lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex
+          > @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2023-08-20T21:06:49.764Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex
+          > @babel/helper-create-regexp-features-plugin >
+          @babel/helper-annotate-as-pure > @babel/types > lodash
