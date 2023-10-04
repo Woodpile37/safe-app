@@ -84,7 +84,7 @@
     "known-css-properties": "^0.23.0",
     "lint-staged": "^12.1.1",
     "pinst": "^2.1.6",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.31",
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.4.1",
     "react-app-rewired": "^2.1.8",
